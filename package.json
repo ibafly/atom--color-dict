@@ -1,0 +1,29 @@
+{
+  "name": "color-dict",
+  "version": "0.1.0",
+  "description": "Replace #HEX values with colors' names ",
+  "main": "./lib/color-dict",
+  "activationCommands": {
+    "atom-workspace": "color-dict:convert"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "color names",
+    "color name list"
+    "less",
+    "sass",
+    "ntc",
+    "name that color"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "color-name-list": "4.4.0",
+    "nearest-color": "1.4.4",
+    "lodash": "4.17.11",
+    "tinycolor2": "1.4.1"
+  },
+  "devDependencies": {}
+}

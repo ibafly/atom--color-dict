@@ -1,0 +1,26 @@
+{
+    "outputType": {
+        "type": "string",
+        "default": "rgb",
+        "enum": [
+            "rgb",
+            "hex"
+        ]
+    },
+    "format": {
+        "type": "string",
+        "default": "kebab-case",
+        "enum": [
+            "kebab-case",
+            "snake_case",
+            "camelCase",
+            "Start Case",
+            "unformat"
+        ]
+    },
+    "colorIndicator": {
+        "title": "Indicator before color name",
+        "type": "string",
+        "default": "color"
+    }
+}
