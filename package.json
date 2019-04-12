@@ -18,13 +18,12 @@
     "color name list",
     "less",
     "sass",
-    "ntc",
     "name that color"
   ],
   "license": "MIT",
   "dependencies": {
     "color-name-list": "4.4.0",
-    "nearest-color": "1.4.4",
+    "nearest-color": "0.4.4",
     "lodash": "4.17.11",
     "tinycolor2": "1.4.1"
   },
