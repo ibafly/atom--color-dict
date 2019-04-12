@@ -7,3 +7,8 @@ Cloned on the other atom package [var-that-color](https://atom.io/packages/var-t
 ## Usage
 
 Select the `#HEX` first, hit `ctrl-alt-d` then.
+
+## To-do
+
+- retrieve #HEX from color name in one line mode.
+- auto select the color on cursor to convert color without select.
