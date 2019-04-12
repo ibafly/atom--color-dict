@@ -19,7 +19,7 @@
         ]
     },
     "colorIndicator": {
-        "title": "Indicator before color name",
+        "title": "Indicator before color names, eg: [color/colour/any other Indicator] home world",
         "type": "string",
         "default": "color"
     }

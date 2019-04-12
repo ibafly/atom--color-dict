@@ -2,7 +2,7 @@
   "context-menu": {
     "atom-text-editor": [
       {
-        "label": "Var That Color",
+        "label": "Color Dict",
         "command": "color-dict:convert"
       }
     ]
@@ -12,7 +12,7 @@
       "label": "Packages",
       "submenu": [
         {
-          "label": "Var That Color",
+          "label": "Color Dict",
           "submenu": [
             {
               "label": "Convert",
