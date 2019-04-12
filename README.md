@@ -6,4 +6,4 @@ Cloned on the other atom package [var-that-color](https://atom.io/packages/var-t
 
 ## Usage
 
-Select the `#HEX` first, hit `ctrl-alt-n` then.
+Select the `#HEX` first, hit `ctrl-alt-d` then.
