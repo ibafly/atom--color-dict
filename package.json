@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "description": "Replace #HEX values with colors' names ",
   "main": "./lib/color-dict",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
   "activationCommands": {
     "atom-workspace": "color-dict:convert"
   },
