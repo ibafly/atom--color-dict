@@ -16,3 +16,4 @@ Cloned on the other atom package [var-that-color](https://atom.io/packages/var-t
 - [ ] maybe multi-cursor converting.
 - [ ] trim any special character since sass variables is invalid in those cases. eg: "!", ".", "$".
 - [ ] make it configrable like whitelist for trimming, variablizing and naming-styles in non-CSS file types.
+- [ ] solve the problem that one needs hit `u` 3 times in vim to achieve `ctrl-z` cancelling.
