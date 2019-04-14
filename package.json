@@ -1,6 +1,6 @@
 {
   "name": "color-dict",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "Replace #HEX values with colors' names ",
   "main": "./lib/color-dict",
   "engines": {
