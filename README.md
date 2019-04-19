@@ -1,6 +1,6 @@
 # Color Dict
 
-color name-value converting in general, with variable definition in .less/scss/sass and more(to-dos).
+Color name-value converting in general, with variable definition in .less/scss/sass and more(to-dos).
 
 Cloned on the other atom package [var-that-color](https://atom.io/packages/var-that-color), using [color-names](https://github.com/meodai/color-names) dictionary instead for more color names.
 
@@ -41,3 +41,17 @@ Not working for multi-cursor for now.
 
 ## License
 [MIT](https://opensource.org/licenses/mit-license.php)
+
+'cc-primary': '$salmon',
+'cc-accent': '$gigas',
+'cc-bg': '$wild-sand',
+'cc-bg-shade': '$melancholia',
+'cc-bg-invert': '$#2138ab',
+'cc-text': '$#0892d0',
+'cc-text-weak': '$#ecefef',
+'cc-text-strong': '$#a59344',
+'cc-text-heading': '$#a59344',
+'cc-text-invert': '$#c09962',
+'cc-text-invert-strong': '$#00ab66',
+'cc-text-link': '$#9d2933',
+'cc-text-link-hover': '$#8ee53f',
