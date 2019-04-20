@@ -4,7 +4,7 @@
   "description": "More color name&value, two-way converting.",
   "main": "./lib/color-dict",
   "engines": {
-    "atom": ">=1.0.0 <2.0.0"
+    "atom": ">=1.0.0"
   },
   "activationCommands": {
     "atom-workspace": "color-dict:convert"
@@ -13,6 +13,7 @@
     "type": "git",
     "url": "https://github.com/ibafly/atom--color-dict"
   },
+  "homepage": "https://github.com/ibafly/atom--color-dict#readme",
   "keywords": [
     "color names",
     "color name list",
@@ -23,8 +24,47 @@
   "license": "MIT",
   "dependencies": {
     "color-name-list": "4.4.0",
-    "nearest-color": "0.4.4",
-    "lodash": "4.17.11"
+    "lodash": "4.17.11",
+    "nearest-color": "0.4.4"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "@babel/register": "^7.4.0",
+    "babel-eslint": "^10.0.1",
+    "chai": "*",
+    "chaiThings": "*",
+    "mocha": "*",
+    "standard": "*"
+  },
+  "standard": {
+    "parser": "babel-eslint",
+    "globals": [
+      "atom",
+      "describe"
+    ]
+  },
+  "babel": {
+    "sourceMaps": "inline",
+    "retainLines": true,
+    "presets": [
+      [
+        "@babel/preset-env",
+        {
+          "targets": {
+            "node": true
+          }
+        }
+      ]
+    ],
+    "plugins": []
+  },
+  "scripts": {
+    "prepublish": "npm run :lint && npm run :test",
+    ":lint": "standard --recursive lib test && echo Linting passed",
+    ":format": "standard --fix 'src/**/*.js'",
+    ":test": "mocha --require @babel/register --timeout 25000 --colors",
+    ":test-w": "mocha -w --require @babel/register --timeout 25000 --colors",
+    "prepublish-w": "npm run :lint && npm run :test-w"
+  }
 }
