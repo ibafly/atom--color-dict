@@ -7,6 +7,7 @@ Your thoughts about these to-dos is welcomed. So do new ideas.
 - [x] auto select the color on cursor to convert to the color name without manual selecting.
 - [ ] maybe multi-cursor converting.
 - [x] trim any special character since *sass variables is invalid in those cases*. eg: "!", ".", "$", "/". It has been down by a dep named [lodash](https://lodash.com/). A great utility library.
+- [ ] handle new special cases like `color-co₂`, convert to `color-co2`?
 - [ ] make it configrable like whitelist for trimming, variablizing and naming-styles in non-sass/scss/less file types.
 - [ ] solve the problem that one needs to hit `u` 3 times in vim to achieve `ctrl-z` cancelling back to color code.
 - [ ] tip the deviation if one color hasn't been named yet. The tolerance range should be adjustable in the config. When the percentage is less than a limit, show these two (not that so) similar colors in a palette(made of lately used color?) and let user choose to use the nearest dicted one or keep the no-name original.
