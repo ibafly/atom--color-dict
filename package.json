@@ -4,7 +4,7 @@
   "description": "More color name&value, two-way converting.",
   "main": "./lib/color-dict",
   "engines": {
-    "atom": ">=1.0.0"
+    "atom": ">=1.0.0 <2.0.0"
   },
   "activationCommands": {
     "atom-workspace": "color-dict:convert"
@@ -28,8 +28,6 @@
     "nearest-color": "0.4.4"
   },
   "devDependencies": {
-    "@babel/core": "^7.4.3",
-    "@babel/preset-env": "^7.4.3",
     "@babel/register": "^7.4.0",
     "@commitlint/cli": "^7.5.2",
     "@commitlint/config-conventional": "^7.5.0",
@@ -80,6 +78,6 @@
     ":lint.format": "standard --fix 'src/**/*.js'",
     ":test": "mocha --require @babel/register --timeout 25000 --colors",
     ":test.watch": "mocha -w --require @babel/register --timeout 25000 --colors",
-    "ci.watch": "npm run :lint && npm run :test-w"
+    "ci.watch": "npm run :lint && npm run :test.watch"
   }
 }
