@@ -22,6 +22,10 @@
     "name that color"
   ],
   "license": "MIT",
+  "mocha": {
+    "bail": false,
+    "ui": "bdd"
+  },
   "dependencies": {
     "color-name-list": "4.4.0",
     "lodash": "4.17.11",
