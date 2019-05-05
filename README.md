@@ -8,7 +8,7 @@ Cloned on the other atom package [var-that-color](https://atom.io/packages/var-t
 
 ### 1. Block Mode: in .less/scss/sass file types
 
-`#2299dd` ➡️ `$color-home-world: #2299dd;`
+`#2299dd` -> `$color-home-world: #2299dd;`
 
 Select constructive lines, one #HEX code in a line.
 
@@ -16,7 +16,7 @@ Then hit `ctrl-alt-d`. Get key-value pairs.
 
 ### 2. Inline Mode: in all file types
 
-`#2299dd` ↔️ `color-home-world`
+`#2299dd` <=> `color-home-world`
 
 **Put the cursor on** the `#HEX`/color name(the indicator included but not the prefix) **or select** the exact span of that.
 
