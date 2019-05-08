@@ -1,5 +1,5 @@
 {
-  "outputType": {
+  "varsValueFormat": {
     "order": 3,
     "type": "string",
     "default": "rgb",
@@ -8,7 +8,7 @@
       "hex"
     ]
   },
-  "format": {
+  "symbolCase": {
     "order": 2,
     "type": "string",
     "default": "kebab-case",

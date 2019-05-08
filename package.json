@@ -4,7 +4,7 @@
   "description": "More color name&value, two-way converting.",
   "main": "./lib/color-dict",
   "engines": {
-    "atom": ">=1.0.0"
+    "atom": ">=1.0.0 <2.0.0"
   },
   "activationCommands": {
     "atom-workspace": "color-dict:convert"
@@ -22,20 +22,26 @@
     "name that color"
   ],
   "license": "MIT",
+  "mocha": {
+    "bail": false,
+    "ui": "bdd"
+  },
   "dependencies": {
     "color-name-list": "4.4.0",
     "lodash": "4.17.11",
     "nearest-color": "0.4.4"
   },
   "devDependencies": {
-    "@babel/core": "^7.4.3",
-    "@babel/preset-env": "^7.4.3",
     "@babel/register": "^7.4.0",
+    "@commitlint/cli": "^7.5.2",
+    "@commitlint/config-conventional": "^7.5.0",
     "babel-eslint": "^10.0.1",
     "chai": "*",
     "chaiThings": "*",
+    "husky": "^1.3.1",
     "mocha": "*",
-    "standard": "*"
+    "standard": "*",
+    "standard-version": "^5.0.2"
   },
   "standard": {
     "parser": "babel-eslint",
@@ -59,12 +65,23 @@
     ],
     "plugins": []
   },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint --env HUSKY_GIT_PARAMS"
+    }
+  },
   "scripts": {
-    "prepublish": "npm run :lint && npm run :test",
+    "ci.test": "npm run :lint && npm run :test",
+    "ci.commit": "commitlint -e $GIT_PARAMS",
     ":lint": "standard --recursive lib test && echo Linting passed",
-    ":format": "standard --fix 'src/**/*.js'",
+    ":lint.format": "standard --fix 'src/**/*.js'",
     ":test": "mocha --require @babel/register --timeout 25000 --colors",
-    ":test-w": "mocha -w --require @babel/register --timeout 25000 --colors",
-    "prepublish-w": "npm run :lint && npm run :test-w"
+    ":test.watch": "mocha -w --require @babel/register --timeout 25000 --colors",
+    "ci.watch": "npm run :lint && npm run :test.watch"
   }
 }

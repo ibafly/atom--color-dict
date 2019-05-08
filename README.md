@@ -6,23 +6,23 @@ Cloned on the other atom package [var-that-color](https://atom.io/packages/var-t
 
 ## Usage
 
-#### 1. Block Mode: in .less/scss/sass file types
+### 1. Block Mode: in .less/scss/sass file types
 
-`#2299dd` ➡️ `$color-home-world: #2299dd;`
+`#2299dd` -> `$color-home-world: #2299dd;`
 
- select constructive lines, one #HEX code in a line.
+Select constructive lines, one #HEX code in a line.
 
-then hit `ctrl-alt-d`. Get key-value pairs.
+Then hit `ctrl-alt-d`. Get key-value pairs.
 
-#### 2. Inline Mode: in all file types
+### 2. Inline Mode: in all file types
 
-`#2299dd` ↔️ `color-home-world`
+`#2299dd` <=> `color-home-world`
 
-**put the cursor on** the `#HEX`/color name(the indicator included but not the prefix) **or select** the exact span of that.
+**Put the cursor on** the `#HEX`/color name(the indicator included but not the prefix) **or select** the exact span of that.
 
-then hit `ctrl-alt-d`. Get key-to-value or value-to-key converting.
+Then hit `ctrl-alt-d`. Get key-to-value or value-to-key converting.
 
-Not working for multi-cursor for now.
+> Not working for multi-cursor for now. And only support `kebab-case`, `snake_case` & `camelCase`.
 
 ## To-dos
 
