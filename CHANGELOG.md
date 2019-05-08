@@ -19,9 +19,3 @@ All notable changes to this project will be documented in this file. See [standa
 ### Tests
 
 * fn to match all hexes in hexes only line ([2ec1ff2](https://github.com/ibafly/atom--color-dict/commit/2ec1ff2))
-
-
-
-#### 0.4.0 | 2019-04-21
-
-- feat: add option to choose to clear selection after converting
