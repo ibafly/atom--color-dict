@@ -5,6 +5,7 @@ Your thoughts about these to-dos is welcomed. So do new ideas.
 - [x] retrieve inline #HEX from name to color. *Behave waggishly when triggered with multi-lines.*
 - [x] retrieve in multi-lines. *Multi-lines looks ok in one single mode, but not good when editor has cursors, inline selections and blockSelections in the same time.*
 - [ ] retrieve in multi-lines in multi-modes at the same time. Don't know if it's possible.
+- [ ] retrieve when the indicator is set to none.
 - [x] auto select the color on cursor to convert to the color name symbol without manual selecting.
 - [x] maybe multi-cursor converting.
 - [x] trim any special character since *Sass variables is invalid in those cases*. eg: "!", ".", "$", "/". It has been down by a dep named [lodash](https://lodash.com/). A great utility library.
