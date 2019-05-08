@@ -1,26 +1,35 @@
 {
-    "outputType": {
-        "type": "string",
-        "default": "rgb",
-        "enum": [
-            "rgb",
-            "hex"
-        ]
-    },
-    "format": {
-        "type": "string",
-        "default": "kebab-case",
-        "enum": [
-            "kebab-case",
-            "snake_case",
-            "camelCase",
-            "Start Case",
-            "unformat"
-        ]
-    },
-    "colorIndicator": {
-        "title": "Indicator before color names, eg: [color/colour/any other Indicator] home world",
-        "type": "string",
-        "default": "color"
-    }
+  "outputType": {
+    "order": 3,
+    "type": "string",
+    "default": "rgb",
+    "enum": [
+      "rgb",
+      "hex"
+    ]
+  },
+  "format": {
+    "order": 2,
+    "type": "string",
+    "default": "kebab-case",
+    "enum": [
+      "kebab-case",
+      "snake_case",
+      "camelCase",
+      "Start Case",
+      "unformat"
+    ]
+  },
+  "colorIndicator": {
+    "order": 1,
+    "title": "Indicator before color names, eg: [color/colour/any other Indicator] home world",
+    "type": "string",
+    "default": "color"
+  },
+  "clearSelection": {
+    "order": 4,
+    "title": "Clear selections after converting",
+    "type": "boolean",
+    "default": "false"
+  }
 }
