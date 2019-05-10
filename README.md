@@ -1,5 +1,7 @@
 # Color Dict
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/ibafly/atom--color-dict.svg)](https://greenkeeper.io/)
+
 Color name-value converting in general, with variable definition in .less/scss/sass and more(to-dos).
 
 Cloned on the other atom package [var-that-color](https://atom.io/packages/var-that-color), using [color-names](https://github.com/meodai/color-names) dictionary instead for more color names.
