@@ -22,7 +22,7 @@ Then hit `ctrl-alt-d`. Get key-value pairs.
 
 Then hit `ctrl-alt-d`. Get key-to-value or value-to-key converting.
 
-> Not working for multi-cursor for now. And only support `kebab-case`, `snake_case` & `camelCase`.
+> It's working for multi-cursor and multi-line, but only support `kebab-case`, `snake_case` & `camelCase`.
 
 ## To-dos
 
