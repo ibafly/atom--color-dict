@@ -30,10 +30,10 @@ describe('unit test', function () {
     const line3 = 'now some before hexes #333      #444#555  '
     const line4 = '#666 #777in between#888     #999'
 
-    utils.getHexesInAHexesOnlyLine(line1).should.eql(['#2299dd', '#2299dd', '#dd9922', '#29d'])
-    utils.getHexesInAHexesOnlyLine(line2).should.equal(line2)
-    utils.getHexesInAHexesOnlyLine(line3).should.equal(line3)
-    utils.getHexesInAHexesOnlyLine(line4).should.equal(line4)
+    utils.matchHexesInAHexesOnlyLine(line1).should.eql(['#2299dd', '#2299dd', '#dd9922', '#29d'])
+    utils.matchHexesInAHexesOnlyLine(line2).should.equal(line2)
+    utils.matchHexesInAHexesOnlyLine(line3).should.equal(line3)
+    utils.matchHexesInAHexesOnlyLine(line4).should.equal(line4)
 
   })
 })
