@@ -4,7 +4,7 @@
 
 Color name-value converting in general, with variable definition in .less/scss/sass and more(to-dos).
 
-Cloned on the other atom package [var-that-color](https://atom.io/packages/var-that-color), using [color-names](https://github.com/meodai/color-names) dictionary instead for more color names.
+Cloned on the other atom package [var-that-color](https://atom.io/packages/var-that-color), using [color-names](https://github.com/meodai/color-names) dictionary instead of [Name that color](http://chir.ag/projects/ntc) for more color names.
 
 ## Usage
 
@@ -12,7 +12,7 @@ Cloned on the other atom package [var-that-color](https://atom.io/packages/var-t
 
 `#2299dd` -> `$color-home-world: #2299dd;`
 
-Select constructive lines, one #HEX code in a line.
+Select constructive lines. lines that only include `#HEX`s will be converted.
 
 Then hit `ctrl-alt-d`. Get key-value pairs.
 
