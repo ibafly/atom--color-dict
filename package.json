@@ -77,12 +77,12 @@
     }
   },
   "scripts": {
-    "ci.test": "npm run :lint && npm run :test",
-    "ci.commit": "commitlint -e $GIT_PARAMS",
-    ":lint": "standard --recursive lib test && echo Linting passed",
-    ":lint.format": "standard --fix 'src/**/*.js'",
-    ":test": "mocha --require @babel/register --timeout 25000 --colors",
-    ":test.watch": "mocha -w --require @babel/register --timeout 25000 --colors",
-    "ci.watch": "npm run :lint && npm run :test.watch"
+    "ci/test": "npm run lint && npm run test",
+    "ci/commit": "commitlint -e $GIT_PARAMS",
+    "lint": "standard --recursive lib test && echo Linting passed",
+    "lint:format": "standard --fix 'src/**/*.js'",
+    "test": "mocha --require @babel/register --timeout 25000 --colors",
+    "test:watch": "mocha -w --require @babel/register --timeout 25000 --colors",
+    "ci/watch": "npm run lint && npm run test.watch"
   }
 }
