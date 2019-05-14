@@ -12,7 +12,7 @@ Cloned on the other atom package [var-that-color](https://atom.io/packages/var-t
 
 `#2299dd` -> `$color-home-world: #2299dd;`
 
-Select constructive lines. lines that only include `#HEX`s will be converted.
+Select constructive lines. lines that only include `#HEX`es will be converted.
 
 Then hit `ctrl-alt-d`. Get key-value pairs.
 
