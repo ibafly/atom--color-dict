@@ -1,5 +1,6 @@
 {
   "varsValueFormat": {
+    "title": "Format of the color variable's value",
     "order": 3,
     "type": "string",
     "default": "rgb",
@@ -9,6 +10,7 @@
     ]
   },
   "symbolCase": {
+    "description": "A symbol contains indicator and color name, eg: color_home_world, colourFreshEgg, iro-dark-sakura",
     "order": 2,
     "type": "string",
     "default": "kebab-case",
@@ -20,14 +22,21 @@
       "unformat"
     ]
   },
+  "stylusPrefix": {
+    "order": 4,
+    "title": "Include `$` in variable names in Stylus",
+    "type": "boolean",
+    "default": "false"
+  },
   "colorIndicator": {
     "order": 1,
-    "title": "Indicator before color names, eg: [color/colour/any other Indicator] home world",
+    "title": "Indicator before color names",
+    "description": "eg: [color/colour/any other Indicator]-home-world",
     "type": "string",
     "default": "color"
   },
   "clearSelection": {
-    "order": 4,
+    "order": 5,
     "title": "Clear selections after converting",
     "type": "boolean",
     "default": "false"
