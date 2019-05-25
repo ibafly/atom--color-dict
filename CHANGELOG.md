@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.6.0](https://github.com/ibafly/atom--color-dict/compare/v0.5.0...v0.6.0) (2019-05-25)
+
+
+### Bug Fixes
+
+* multi selections convertion ([2867a92](https://github.com/ibafly/atom--color-dict/commit/2867a92))
+
+
+### Features
+
+* add Stylus support for block mode ([ac24b1a](https://github.com/ibafly/atom--color-dict/commit/ac24b1a))
+
+
+
 ## [0.5.0](https://github.com/ibafly/atom--color-dict/compare/v0.4.0...v0.5.0) (2019-05-08)
 
 
