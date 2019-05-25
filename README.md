@@ -2,13 +2,13 @@
 
 [![Greenkeeper badge](https://badges.greenkeeper.io/ibafly/atom--color-dict.svg)](https://greenkeeper.io/)
 
-Color name-value converting in general, with variable definition in .less/scss/sass and more(to-dos).
+Color name-value converting in general, with variable definition convertion and more(to-dos).
 
 Cloned on the other atom package [var-that-color](https://atom.io/packages/var-that-color), using [color-names](https://github.com/meodai/color-names) dictionary instead of [Name that color](http://chir.ag/projects/ntc) for more color names.
 
 ## Usage
 
-### 1. Block Mode: in .less/scss/sass file types
+### 1. Block Mode: in .less/scss/sass/stylus file types
 
 `#2299dd` -> `$color-home-world: #2299dd;`
 
