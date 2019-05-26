@@ -8,13 +8,15 @@ Cloned on the other atom package [var-that-color](https://atom.io/packages/var-t
 
 ## Usage
 
-### 1. Block Mode: in .less/scss/sass/stylus file types
+### 1. Block Mode: in .less/scss/sass/stylus/css file types
 
 `#2299dd` -> `$color-home-world: #2299dd;`
 
 Select constructive lines. lines that only include `#HEX`es will be converted.
 
 Then hit `ctrl-alt-d`. Get key-value pairs.
+
+> You can change config to other syntax when in `.css` files.
 
 ### 2. Inline Mode: in all file types
 
@@ -24,7 +26,7 @@ Then hit `ctrl-alt-d`. Get key-value pairs.
 
 Then hit `ctrl-alt-d`. Get key-to-value or value-to-key converting.
 
-> It's working for multi-cursor and multi-line, but only support `kebab-case`, `snake_case` & `camelCase`.
+> It's working for multi-cursor and multi-line, but only supports `kebab-case`, `snake_case` & `camelCase`.
 
 ## To-dos
 

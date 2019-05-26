@@ -10,7 +10,7 @@
     ]
   },
   "symbolCase": {
-    "description": "A symbol contains indicator and color name, eg: color_home_world, colourFreshEgg, iro-dark-sakura",
+    "description": "A symbol contains indicator and color name, eg: `color_home_world`, `colourFreshEgg`, `iro-dark-sakura`",
     "order": 2,
     "type": "string",
     "default": "kebab-case",
@@ -23,20 +23,34 @@
     ]
   },
   "stylusPrefix": {
-    "order": 4,
+    "order": 5,
     "title": "Include `$` in variable names in Stylus",
     "type": "boolean",
     "default": "false"
   },
+  "colorDefinitionSyntaxInCss": {
+    "order": 6,
+    "title": "color Definition Syntax In CSS",
+    "description": "Since various CSS Pre-processors can be used, choose a syntax to apply to `variable: value` in `.css` files",
+    "type": "string",
+    "default": "CSS",
+    "enum": [
+      "SCSS",
+      "Sass",
+      "less",
+      "Stylus",
+      "CSS"
+    ]
+  },
   "colorIndicator": {
     "order": 1,
     "title": "Indicator before color names",
-    "description": "eg: [color/colour/any other Indicator]-home-world",
+    "description": "eg: `[color/colour/anyOtherIndicator]-home-world`",
     "type": "string",
     "default": "color"
   },
   "clearSelection": {
-    "order": 5,
+    "order": 4,
     "title": "Clear selections after converting",
     "type": "boolean",
     "default": "false"
