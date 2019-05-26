@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.7.0](https://github.com/ibafly/atom--color-dict/compare/v0.6.1...v0.7.0) (2019-05-26)
+
+
+### Features
+
+* block mode supports css syntax & syntax customizable in .css file ([9ce6737](https://github.com/ibafly/atom--color-dict/commit/9ce6737))
+
+
+
 ### [0.6.1](https://github.com/ibafly/atom--color-dict/compare/v0.5.0...v0.6.1) (2019-05-26)
 
 
