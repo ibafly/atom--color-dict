@@ -27,7 +27,7 @@
     "ui": "bdd"
   },
   "dependencies": {
-    "color-name-list": "4.7.1",
+    "color-name-list": "4.9.0",
     "lodash": "4.17.11",
     "nearest-color": "0.4.4"
   },
