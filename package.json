@@ -39,7 +39,7 @@
     "@commitlint/config-conventional": "^8.0.0",
     "babel-eslint": "^10.0.1",
     "chai": "*",
-    "husky": "^3.0.0",
+    "husky": "^3.0.4",
     "mocha": "*",
     "standard": "*",
     "standard-version": "^6.0.1"
