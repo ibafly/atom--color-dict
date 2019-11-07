@@ -42,7 +42,7 @@
     "husky": "^3.0.0",
     "mocha": "*",
     "standard": "*",
-    "standard-version": "^6.0.1"
+    "standard-version": "^7.0.1"
   },
   "standard": {
     "parser": "babel-eslint",
